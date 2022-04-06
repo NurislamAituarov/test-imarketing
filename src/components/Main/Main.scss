@@ -1,0 +1,103 @@
+.main {
+  position: relative;
+  margin-top: 30px;
+}
+
+.information {
+  padding-top: 83px;
+  max-width: 476px;
+  h1 {
+    margin: 0;
+    font-size: calc(23px + 15 * (100vw / 1400));
+    line-height: calc(26px + 16 * (100vw / 1400));
+    font-weight: 700;
+    color: var(--color-black);
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+  }
+}
+
+.information__btns {
+  button {
+    border: none;
+    background: none;
+    background-color: var(--color-yellow);
+    border: none;
+    color: white;
+    &:active {
+      background-color: #d4ad00;
+    }
+  }
+}
+
+.information__btns_play {
+  cursor: pointer;
+  padding: 0px 20px;
+  height: 53px;
+  justify-content: center;
+  border-radius: 4px;
+  color: var(--color-yellow);
+  font-weight: 600;
+  svg {
+    margin-right: 8px;
+  }
+  &:hover {
+    transition: all 0.3s;
+    color: black;
+    svg {
+      fill: black;
+    }
+  }
+}
+
+.information__fon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+@media (max-width: 968px) {
+  .information {
+    max-width: 400px;
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .information__fon {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .information {
+    padding-top: 20px;
+    p {
+      font-size: 14px;
+    }
+  }
+  .information__fon {
+    top: -100px;
+    width: 400px;
+  }
+  .information__btns {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 578px) {
+  .information__btns {
+    font-size: 14px;
+  }
+  .information__fon {
+    top: -180px;
+    right: -101px;
+    width: 300px;
+  }
+}

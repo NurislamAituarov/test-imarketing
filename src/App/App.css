@@ -1,0 +1,17 @@
+.App {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 145px;
+}
+
+@media (max-width: 1275px) {
+  .App {
+    overflow: hidden;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 568px) {
+  .App {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,124 @@
+.instruments {
+  margin-top: 190px;
+  padding-bottom: 90px;
+  position: relative;
+
+  button {
+    background-color: var(--color-yellow);
+    border: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    &:active {
+      background-color: #d4ad00;
+    }
+  }
+  h2 {
+    margin: 0 auto;
+    width: 540px;
+    text-align: center;
+    font-size: calc(19px + 12 * (100vw / 1400));
+    line-height: calc(24px + 24 * (100vw / 1400));
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+}
+.instruments__fon {
+  bottom: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -1;
+}
+.instruments__blog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 45px;
+}
+.instruments__blog_item {
+  .instrument__blog_svg {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .instruments__blog_title {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-top: 30px;
+  }
+  .instruments__blog_subtitle {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--color-light-black);
+  }
+
+  .background1 {
+    background: #7752be;
+    box-shadow: 0px 9px 18px -4px #7752be;
+  }
+  .background2 {
+    background: #fab005;
+    box-shadow: 0px 9px 18px -4px #fab005;
+  }
+  .background3 {
+    background: #f03e3d;
+    box-shadow: 0px 9px 18px -4px #f03e3d;
+  }
+  .background4 {
+    background: #4dadf7;
+    box-shadow: 0px 9px 18px -4px #4dadf7;
+  }
+}
+
+@media (max-width: 1415px) {
+  .instruments__fon {
+    max-width: 100%;
+  }
+}
+@media (max-width: 978px) {
+  .instruments__blog_item {
+    .instruments__blog_title {
+      font-size: 18px;
+    }
+    .instruments__blog_subtitle {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+@media (max-width: 830px) {
+  .instruments__blog {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-column-gap: 60px;
+  }
+  .instruments__blog_item {
+    .instruments__blog_title {
+      margin-top: 10px;
+    }
+    .instruments__blog_subtitle {
+      margin-top: 0px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .instruments {
+    margin-top: 100px;
+    h2 {
+      max-width: 100%;
+    }
+  }
+}
+@media (max-width: 378px) {
+  .instruments__blog {
+    grid-column-gap: 20px;
+  }
+}
