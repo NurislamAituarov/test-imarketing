@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/test-imarketing/static/css/main.877371e8.css",
+    "main.css": "/test-imarketing/static/css/main.3d87e001.css",
     "main.js": "/test-imarketing/static/js/main.a224ddce.js",
     "static/media/Bg.png": "/test-imarketing/static/media/Bg.e8d37b04da959aad551c.png",
     "static/media/fon.png": "/test-imarketing/static/media/fon.637ef8bd3f85380cfa34.png",
     "index.html": "/test-imarketing/index.html",
-    "main.877371e8.css.map": "/test-imarketing/static/css/main.877371e8.css.map",
+    "main.3d87e001.css.map": "/test-imarketing/static/css/main.3d87e001.css.map",
     "main.a224ddce.js.map": "/test-imarketing/static/js/main.a224ddce.js.map"
   },
   "entrypoints": [
-    "static/css/main.877371e8.css",
+    "static/css/main.3d87e001.css",
     "static/js/main.a224ddce.js"
   ]
 }
