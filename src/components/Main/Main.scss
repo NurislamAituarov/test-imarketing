@@ -52,6 +52,13 @@
       fill: black;
     }
   }
+  &:active {
+    transition: all 0s;
+    // color: green;
+    svg {
+      fill: rgb(255, 0, 0);
+    }
+  }
 }
 
 .information__fon {
