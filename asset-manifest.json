@@ -1,27 +1,24 @@
 {
   "files": {
-    "main.css": "/test-imarketing/static/css/main.bd8af595.css",
-    "main.js": "/test-imarketing/static/js/main.499e3479.js",
+    "main.css": "/test-imarketing/static/css/main.7c367437.css",
+    "main.js": "/test-imarketing/static/js/main.726263f7.js",
     "static/media/Oval.png": "/test-imarketing/static/media/Oval.7410cffac08be3a4c65b.png",
     "static/media/Bg.png": "/test-imarketing/static/media/Bg.e8d37b04da959aad551c.png",
     "static/media/fon.png": "/test-imarketing/static/media/fon.637ef8bd3f85380cfa34.png",
     "static/media/cart3.png": "/test-imarketing/static/media/cart3.9672ec6293c749400a55.png",
-    "static/media/marketing3.png": "/test-imarketing/static/media/marketing3.91e2b00921a8802523aa.png",
     "static/media/cart1.png": "/test-imarketing/static/media/cart1.c5eb93991be3c8d297e8.png",
     "static/media/cart2.png": "/test-imarketing/static/media/cart2.2d7564d63ab860fc4af7.png",
-    "static/media/marketing2.png": "/test-imarketing/static/media/marketing2.e9c8526fd38c40f1ad35.png",
     "static/media/Avator4.png": "/test-imarketing/static/media/Avator4.3da7610ca1d914a4e893.png",
     "static/media/Avator.png": "/test-imarketing/static/media/Avator.89b878b5789c99e109dc.png",
     "static/media/Avator3.png": "/test-imarketing/static/media/Avator3.f8529daeea47d97eb2b7.png",
-    "static/media/marketing1.png": "/test-imarketing/static/media/marketing1.18cb23a550b7b12e4fd8.png",
     "static/media/Avator1.png": "/test-imarketing/static/media/Avator1.5933a662934b9f45c97f.png",
     "static/media/Avator2.png": "/test-imarketing/static/media/Avator2.bc9ce87ccb8d4ff2c5d4.png",
     "index.html": "/test-imarketing/index.html",
-    "main.bd8af595.css.map": "/test-imarketing/static/css/main.bd8af595.css.map",
-    "main.499e3479.js.map": "/test-imarketing/static/js/main.499e3479.js.map"
+    "main.7c367437.css.map": "/test-imarketing/static/css/main.7c367437.css.map",
+    "main.726263f7.js.map": "/test-imarketing/static/js/main.726263f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd8af595.css",
-    "static/js/main.499e3479.js"
+    "static/css/main.7c367437.css",
+    "static/js/main.726263f7.js"
   ]
 }
