@@ -31,14 +31,7 @@
   }
 }
 
-@media (max-width: 768px) {
-  .header__menuList {
-    ul {
-      width: 254px;
-    }
-  }
-}
-@media (max-width: 501px) {
+@media (max-width: 532px) {
   .header {
     display: block;
   }
@@ -53,7 +46,7 @@
   .header__menuList {
     left: 0px;
     ul {
-      width: 200px;
+      width: 229px;
     }
   }
 }

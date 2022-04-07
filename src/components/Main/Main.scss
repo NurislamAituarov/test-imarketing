@@ -22,16 +22,6 @@
 }
 
 .information__btns {
-  button {
-    border: none;
-    background: none;
-    background-color: var(--color-yellow);
-    border: none;
-    color: white;
-    &:active {
-      background-color: #d4ad00;
-    }
-  }
 }
 
 .information__btns_play {

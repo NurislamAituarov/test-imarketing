@@ -55,7 +55,7 @@ export function Instruments() {
           );
         })}
       </div>
-      <Button title="SIGN UP NOW" size="m" />
+      <Button title="SIGN UP NOW" size="m" active={true} />
       <img className="instruments__fon" src={background} alt="задний фон" />
     </div>
   );

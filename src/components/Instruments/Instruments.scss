@@ -4,15 +4,9 @@
   position: relative;
 
   button {
-    background-color: var(--color-yellow);
-    border: none;
-    color: white;
     display: block;
     margin: 0 auto;
     margin-top: 60px;
-    &:active {
-      background-color: #d4ad00;
-    }
   }
   h2 {
     margin: 0 auto;

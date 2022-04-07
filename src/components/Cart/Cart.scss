@@ -1,0 +1,123 @@
+.container__cart {
+  margin-top: 120px;
+}
+.cart__item_subtitle {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--color-light-black);
+}
+.cart__item {
+  justify-content: space-between;
+  margin-bottom: 100px;
+  gap: 30px;
+}
+.cart__item_information {
+  max-width: 486px;
+  h2 {
+    margin-bottom: 20px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+}
+.cart__item_additionally {
+  margin-top: 30px;
+  .cart__item_svg {
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    background-color: var(--color-yellow);
+    margin-right: 30px;
+  }
+  p {
+    width: 385px;
+  }
+}
+
+@media (max-width: 1045px) {
+  .cart__item {
+    margin-bottom: 50px;
+    img {
+      width: 330px;
+    }
+  }
+  .cart__item_information {
+    max-width: 383px;
+    h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    h5 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    .cart__item_subtitle {
+      font-size: 14px;
+    }
+  }
+  .cart__item_additionally {
+    margin-top: 15px;
+    p {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 915px) {
+  .cart__item {
+    position: relative;
+    display: block;
+    margin-bottom: 100px;
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 0.5;
+    }
+  }
+  .cart__item_information {
+    position: relative;
+    max-width: 100%;
+    z-index: 10;
+  }
+}
+@media (max-width: 565px) {
+  .container__cart {
+    margin-top: 60px;
+  }
+  .cart__item {
+    margin-bottom: 50px;
+    img {
+      width: 260px;
+      top: 96px;
+    }
+  }
+  .cart__item_information {
+    h2 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 5px;
+    }
+    h5 {
+      margin: 0;
+    }
+    p {
+      line-height: 20px;
+    }
+    .cart__item_subtitle {
+      font-size: 12px;
+    }
+  }
+  .cart__item_additionally {
+    .cart__item_svg {
+      svg {
+        width: 14px;
+      }
+    }
+  }
+}

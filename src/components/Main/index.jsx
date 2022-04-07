@@ -3,6 +3,9 @@ import { Button } from '../Button';
 import { Triangle } from '../Svg';
 import fon from '../../Image/fon.png';
 import { Instruments } from '../Instruments';
+import { Cart } from '../Cart';
+import { OurExpert } from '../OurExpert';
+import { Strategies } from '../Strategies';
 
 export default function Main() {
   return (
@@ -14,7 +17,7 @@ export default function Main() {
           to imagine your next user experience.
         </p>
         <div className="information__btns flex">
-          <Button title="Get started" size="m" />
+          <Button title="Get started" size="m" active={true} />
           <div tabIndex="0" className="information__btns_play flex">
             <Triangle />
             <span>Watch the Video</span>
@@ -23,6 +26,9 @@ export default function Main() {
       </div>
       <img className="information__fon" src={fon} alt="фоновая картинка" />
       <Instruments />
+      <Cart />
+      <OurExpert />
+      <Strategies />
     </main>
   );
 }

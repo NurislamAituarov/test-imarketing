@@ -14,19 +14,24 @@
   }
 }
 .s {
-  width: 110px;
+  min-width: 110px;
   height: 46px;
+  padding: 0 15px;
 }
 
 .m {
-  width: 175px;
+  min-width: 175px;
   height: 53px;
+  padding: 0 30px;
 }
 
 .active__btn {
   background-color: var(--color-yellow);
   border: none;
   color: white;
+  &:active {
+    background-color: #d4ad00;
+  }
 }
 
 @media (max-width: 768px) {
