@@ -1,4 +1,7 @@
 import './Cart.scss';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import cart1 from '../../Image/cart1.png';
 import cart2 from '../../Image/cart2.png';
 import cart3 from '../../Image/cart3.png';
@@ -10,15 +13,15 @@ export function Cart() {
     <section className="container__cart">
       <div className="cart__item flex">
         <CartInformation />
-        <img src={cart1} alt="img" />
+        <LazyLoadImage effect="blur" src={cart1} alt="img" />
       </div>
       <div className="cart__item flex">
-        <img src={cart2} alt="img" />
+        <LazyLoadImage effect="blur" src={cart2} alt="img" />
         <CartInformationSecond />
       </div>
       <div className="cart__item flex">
         <CartInformationThird />
-        <img src={cart3} alt="img" />
+        <LazyLoadImage effect="blur" src={cart3} alt="img" />
       </div>
     </section>
   );

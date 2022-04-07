@@ -5,7 +5,6 @@ import fon from '../../Image/fon.png';
 import { Instruments } from '../Instruments';
 import { Cart } from '../Cart';
 import { OurExpert } from '../OurExpert';
-import { Strategies } from '../Strategies';
 
 export default function Main() {
   return (
@@ -28,7 +27,6 @@ export default function Main() {
       <Instruments />
       <Cart />
       <OurExpert />
-      <Strategies />
     </main>
   );
 }

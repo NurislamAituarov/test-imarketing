@@ -1,8 +1,16 @@
 import './Footer.scss';
 import { Logo } from '../Svg';
 import { Button } from '../Button';
+import { useState } from 'react';
 
 export default function Footer() {
+  const [value, setValue] = useState('');
+
+  function onChange(value) {
+    const valValue = value.replace(/\D/g, '');
+    setValue(valValue);
+  }
+
   return (
     <footer className="footer">
       <Logo />
@@ -22,7 +30,13 @@ export default function Footer() {
       </div>
       <form className="footer__block footer__block_3">
         <p className="footer__block_title">Knowing you're always on the best energy deal.</p>
-        <input type="text" placeholder="Enter your phone Number" />
+        <input
+          onChange={(e) => onChange(e.target.value)}
+          type="tel"
+          name="phone"
+          placeholder="Enter your phone Number"
+          value={value}
+        />
         <Button size="s" title="Sign up Now" active={true} />
       </form>
     </footer>

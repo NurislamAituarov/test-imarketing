@@ -1,4 +1,7 @@
 import './OurExpert.scss';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import { Htag } from '../HTag';
 import avatar from '../../Image/Avator.png';
 import avatar1 from '../../Image/Avator1.png';
@@ -11,8 +14,8 @@ import text1 from '../../Image/Text1.png';
 import text2 from '../../Image/Text2.png';
 import text3 from '../../Image/Text3.png';
 import text4 from '../../Image/Text4.png';
-
 import { Button } from '../Button';
+
 export function OurExpert() {
   return (
     <section className="container__expert">
@@ -25,23 +28,23 @@ export function OurExpert() {
         <Button title="Contact our expert" size="m" active={true} />
       </div>
       <div className="container__expert_avatar0 avatar">
-        <img src={avatar} alt="avatar" />
+        <LazyLoadImage effect="blur" src={avatar} alt="avatar" />
         <img className="text text_default" src={text} alt="text" />
       </div>
       <div className="container__expert_avatar1 avatar">
-        <img src={avatar1} alt="avatar" />
+        <LazyLoadImage effect="blur" src={avatar1} alt="avatar" />
         <img className="text1 text_default" src={text1} alt="text" />
       </div>
       <div className="container__expert_avatar2 avatar">
-        <img src={avatar2} alt="avatar" />
+        <LazyLoadImage effect="blur" src={avatar2} alt="avatar" />
         <img className="text2 text_default" src={text2} alt="text" />
       </div>
       <div className="container__expert_avatar3 avatar">
-        <img src={avatar3} alt="avatar" />
+        <LazyLoadImage effect="blur" src={avatar3} alt="avatar" />
         <img className="text3 text_default" src={text3} alt="text" />
       </div>
       <div className="container__expert_avatar4 avatar">
-        <img src={avatar4} alt="avatar" />
+        <LazyLoadImage effect="blur" src={avatar4} alt="avatar" />
         <img className="text4 text_default" src={text4} alt="text" />
       </div>
 
